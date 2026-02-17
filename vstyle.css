@@ -1,0 +1,71 @@
+body {
+    background-color: mistyrose;
+}
+
+.layout-container {
+    width: min(1000px, 100%);
+    /*responisve width for device*/
+    margin: 0 auto;
+    /* centers the layout*/
+    columns: 3 320px;
+    column-gap: 1em;
+}
+
+.art {
+    line-height: 0px;
+    font-size: 10px;
+    font-weight: 400px;
+    color: black;
+    text-align: justify;
+    font-family: sans-serif;
+}
+
+ul {
+    color: rgb(244, 48, 107);
+    list-style-type: circle;
+    font-weight: 700;
+    line-height: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+img {
+    display: block;
+    margin-bottom: 1em;
+    width: 100%;
+    border-radius: 10px;
+    /*automatically resizes images*/
+}
+
+h1 {
+    text-align: center;
+    color: rgb(244, 48, 107);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+    display: flex;
+    background-color: mistyrose;
+}
+
+.container div {
+    background-color: mistyrose;
+    margin: 10px;
+    padding: 20px;
+    font-size: 24px;
+}
+
+p {
+    font-family: sans-serif;
+    color: rgb(244, 48, 107);
+    text-align: center;
+    font-weight: 700;
+}
+
+audio {
+    border-radius: 10px;
+    background-color: rgb(244, 48, 107);
+}
+
+h6 {
+    line-height: 0px;
+}
